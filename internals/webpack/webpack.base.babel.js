@@ -82,6 +82,7 @@ module.exports = (options) => ({
   ],
   resolve: {
     modules: ['app', 'node_modules'],
+    alias: { moment: 'moment/moment.js' },
     extensions: [
       '',
       '.js',
