@@ -11,6 +11,8 @@
 
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
+import SingleDatePicker from 'react-dates';
+
 import messages from './messages';
 
 export default class HomePage extends React.Component { // eslint-disable-line react/prefer-stateless-function
